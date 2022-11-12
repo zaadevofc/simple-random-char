@@ -1,6 +1,6 @@
 {
   "name": "simple-random-char",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Simple package to get Random Char",
   "main": "index.js",
   "scripts": {
