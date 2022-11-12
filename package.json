@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zaadevofc/random-char.git"
+    "url": "git+https://github.com/zaadevofc/simple-random-char.git"
   },
   "keywords": [
     "random",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/zaadevofc/simple-random-char#readme",
   "dependencies": {
+    "simple-random-char": "^1.8.0",
     "voucher-code-generator": "^1.3.0"
   }
 }
