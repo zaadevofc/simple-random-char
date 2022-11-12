@@ -21,7 +21,7 @@ $ npm install simple-random-char
 With require:
 
 ```js
-const random = require('simple-random-char');
+const random = require("simple-random-char");
 ```
 
 ### Usage
@@ -50,8 +50,8 @@ const numbers = random.numbers() // result : 26847188549482119024
 ```js
 const log = console.log;
 const config = {
-    prefix: 'awalan-', // default : ''
-    postfix: '-akhiran', // default : ''
+    prefix: "awalan-", // default : ""
+    postfix: "-akhiran", // default : ""
     length: 10, // default : 20
     count: 1 // default : 1
 }
@@ -66,11 +66,11 @@ log(random.numbers(config)) // result : awalan-2615231700-akhiran
 ```js
 const log = console.log;
 const custom = {
-    prefix: 'awalan-', // default : ''
-    postfix: '-akhiran', // default : ''
+    prefix: "awalan-", // default : ""
+    postfix: "-akhiran", // default : ""
     length: 10, // default : 20
     count: 1, // default : 1,
-    custom: 'YOUR_CUSTOM_CHAR' // required! (bisa di isi apa aja)
+    custom: "YOUR_CUSTOM_CHAR" // required! (bisa di isi apa aja)
 }
 
 log(random.custom(custom)) // result : awalan-CR_AYRHUUS-akhiran
@@ -82,27 +82,27 @@ result for `count > 1` (lebih dari satu)
 
 ```json
 [
-  'awalan-fbT82pSXJt-akhiran',
-  'awalan-YoR33rMTWb-akhiran',
-  'awalan-99iW2fGrWV-akhiran'
+  "awalan-fbT82pSXJt-akhiran",
+  "awalan-YoR33rMTWb-akhiran",
+  "awalan-99iW2fGrWV-akhiran"
 ] // alphanum
 
 [
-  'awalan-EwwIRhgMJa-akhiran',
-  'awalan-gyHaYdMXmg-akhiran',
-  'awalan-chFbICCvaf-akhiran'
+  "awalan-EwwIRhgMJa-akhiran",
+  "awalan-gyHaYdMXmg-akhiran",
+  "awalan-chFbICCvaf-akhiran"
 ] // alphabet
 
 [
-  'awalan-3781640300-akhiran',
-  'awalan-3730818925-akhiran',
-  'awalan-0984199624-akhiran'
+  "awalan-3781640300-akhiran",
+  "awalan-3730818925-akhiran",
+  "awalan-0984199624-akhiran"
 ] // numbers
 
 [
-  'awalan-SCUTSRHTSO-akhiran',
-  'awalan-OTSCSOCOAH-akhiran',
-  'awalan-RRRRUMSOOA-akhiran'
+  "awalan-SCUTSRHTSO-akhiran",
+  "awalan-OTSCSOCOAH-akhiran",
+  "awalan-RRRRUMSOOA-akhiran"
 ] // custom
 ```
 
