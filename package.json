@@ -1,0 +1,27 @@
+{
+  "name": "simple-random-char",
+  "version": "1.4.0",
+  "description": "Simple package to get Random Char",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaadevofc/random-char.git"
+  },
+  "keywords": [
+    "random",
+    "char",
+    "string"
+  ],
+  "author": "zaadevofc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaadevofc/random-char/issues"
+  },
+  "homepage": "https://github.com/zaadevofc/random-char#readme",
+  "dependencies": {
+    "voucher-code-generator": "^1.3.0"
+  }
+}
