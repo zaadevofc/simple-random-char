@@ -14,20 +14,20 @@ Apa saja fiturnya?
 
 Install with npm:
 
-```
+```js
 $ npm install simple-random-char
 ```
 
 With require:
 
-```
+```js
 const random = require('simple-random-char');
 ```
 
 ### Usage
 
 ### Note :
-```
+```js
 /*
 #> count == 1 => result = String
 #> count > 1 => result = Array
@@ -40,14 +40,14 @@ const random = require('simple-random-char');
 ```
 
 #### Example :
-```
+```js
 const alphanum = random.alphanum() // result : MGD9ypmFoXwhw7tws50n
 const alphabet = random.alphabet() // result : thYSTuTTScEKQYfiwfpN
 const numbers = random.numbers() // result : 26847188549482119024
 ```
 
 #### Advance
-```
+```js
 const log = console.log;
 const config = {
     prefix: 'awalan-', // default : ''
@@ -63,7 +63,7 @@ log(random.numbers(config)) // result : awalan-2615231700-akhiran
 
 #### Costum
 
-```
+```js
 const log = console.log;
 const custom = {
     prefix: 'awalan-', // default : ''
@@ -80,7 +80,7 @@ log(random.custom(custom)) // result : awalan-CR_AYRHUUS-akhiran
 
 result for `count > 1` (lebih dari satu)
 
-```
+```json
 [
   'awalan-fbT82pSXJt-akhiran',
   'awalan-YoR33rMTWb-akhiran',
