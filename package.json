@@ -1,6 +1,6 @@
 {
   "name": "simple-random-char",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Simple package to get Random Char",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "string"
   ],
   "author": "zaadevofc",
-  "license": "ISC",
+  "license": "Apache",
   "bugs": {
     "url": "https://github.com/zaadevofc/simple-random-char/issues"
   },

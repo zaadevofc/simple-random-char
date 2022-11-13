@@ -122,4 +122,4 @@ npm run test
 
 ## License
 
-Code released under the [MIT license](LICENSE).
+Code released under the [Apache](LICENSE.txt).
