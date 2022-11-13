@@ -1,10 +1,10 @@
 {
   "name": "simple-random-char",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "Simple package to get Random Char",
   "main": "index.js",
   "scripts": {
-    "test": "node ./example/example.js"
+    "test": "node example.js"
   },
   "repository": {
     "type": "git",
