@@ -1,6 +1,6 @@
 {
   "name": "simple-random-char",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Simple package to get Random Char",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/zaadevofc/simple-random-char#readme",
   "dependencies": {
-    "simple-random-char": "^1.8.0",
     "voucher-code-generator": "^1.3.0"
   }
 }
